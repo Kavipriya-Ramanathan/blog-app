@@ -4,9 +4,21 @@ import Blog from "./Blog";
 import config from "../config";
 import EmptyBlog from "./EmptyBlog";
 
+const useStyles = makeStyles((theme) => ({
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    margin: "20px auto",
+    width: "80%",
+  },
+}));
+
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const classes = useStyles();
 
   const sendRequest = async () => {
     try {
