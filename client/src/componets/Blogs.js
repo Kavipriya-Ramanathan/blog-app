@@ -27,7 +27,7 @@ const Blogs = () => {
   }, []);
 
   if (loading) {
-    return <div></div>;
+    return <div className={classes.container}>Loading Your Feed...</div>;
   }
 
   return (

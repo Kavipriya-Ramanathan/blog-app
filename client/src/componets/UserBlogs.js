@@ -79,8 +79,7 @@ const UserBlogs = () => {
   // };
 
   if (loading) {
-    return <div></div>
-    // return <div className={classes.container}>Loading your blogs...</div>;
+    return <div className={classes.container}>Loading your blogs...</div>;
   }
 
   return (

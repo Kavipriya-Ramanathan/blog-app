@@ -69,7 +69,13 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="sticky" sx={{ background: `${theme.bg}` }}>
+    <AppBar position="sticky" 
+      sx={{ 
+      background: `${theme.bg}`,
+      top: 0, 
+      zIndex: 1100, // Keeps it above most standard MUI elements
+      boxShadow: "0px 2px 10px rgba(0,0,0,0.1)" // Optional: subtle Pinterest-style shadow
+    }}>
       <Toolbar>
         <Typography variant="h4">BlogsApp</Typography>
         {isLoggedIn && (

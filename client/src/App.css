@@ -1,0 +1,13 @@
+/* Ensure the body doesn't trap the sticky header */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll, allow vertical */
+}
+
+/* Ensure your main content doesn't hide behind the sticky bar */
+main {
+  min-height: calc(100vh - 64px); /* Subtracts header height */
+  display: flex;
+  flex-direction: column;
+}
