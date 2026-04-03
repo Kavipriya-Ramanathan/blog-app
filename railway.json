@@ -1,0 +1,14 @@
+{
+  "$schema": "https://railway.app/schema.json",
+  "build": {
+    "builder": "heroku.buildpacks",
+    "buildpacks": [
+      {
+        "name": "heroku/nodejs"
+      },
+      {
+        "name": "mars/create-react-app"
+      }
+    ]
+  }
+}
