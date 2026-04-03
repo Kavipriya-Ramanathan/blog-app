@@ -2,7 +2,6 @@
 
 A full-stack blog application built with the MERN (MongoDB, Express.js, React, Node.js) stack. This application allows users to create, read, update, and delete blog posts with user authentication.
 
-**Deployment:** Deployed on Railway (https://railway.app) with separate service for backend and frontend.
 
 ## 🚀 Features
 
