@@ -81,4 +81,13 @@ Blog-App-MERN/
 ## 📸 App Preview
 ![MERN Blog Demo](https://github.com/Kavipriya-Ramanathan/blog-app/blob/main/demo.gif?raw=true)
 
+### 🚀 Live Demo
+**[✨ View Live App](https://blog-app-ecru-seven.vercel.app)**
+
+---
+
+### 🏗️ Infrastructure
+* **Frontend:** Deployed on **Vercel** (React/MUI).
+* **Backend:** Deployed on **Railway** (Node.js/Express).
+* **Database:** Hosted on **MongoDB Atlas**.
 
