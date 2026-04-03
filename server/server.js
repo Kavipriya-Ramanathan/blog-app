@@ -29,4 +29,4 @@ app.use("/api", (req, res, next) => {
 
 //define port
 
-app.listen(5001, () => console.log("app started at 5001..."));
+app.listen(process.env.PORT || 5001, () => console.log("app started at 5001..."));
