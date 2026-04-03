@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Blog from "./Blog";
-import DeleteButton from "./DeleteBlogs";
 import { makeStyles } from "@mui/styles";
 import config from "../config";
 import EmptyBlog from "./EmptyBlog";
@@ -73,11 +72,11 @@ const UserBlogs = () => {
     });
   }, []);
 
-  const handleDelete = () => {
-    sendRequest().then((data) => {
-      setUser(data?.data?.user || null);
-    });
-  };
+  // const handleDelete = () => {
+  //   sendRequest().then((data) => {
+  //     setUser(data?.data?.user || null);
+  //   });
+  // };
 
   if (loading) {
     return <div></div>
